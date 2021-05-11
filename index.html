@@ -7,7 +7,10 @@
     <title>The band</title>
     <link rel="icon" href="https://findicons.com/files/icons/2789/light/128/music.png" type="image/x-icon" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 <body>
     <div id="main">
@@ -19,7 +22,7 @@
                 <li><a href="#tour">Tour</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li>
-                    <a href="">
+                    <a href="#">
                         More
                         <i class="nav-arrow-down ti-angle-down"></i>
                     </a>
@@ -32,11 +35,14 @@
             </ul>
             <!-- End: Nav -->
 
-            <!-- Begin: Search icon -->
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="menu-icon ti-menu"></i>
+            </div>
+
+            <!-- Search icon -->
             <div class="search-btn">
                 <i class="search-icon ti-search"></i>
             </div>
-            <!-- End: Search icon -->
         </div>
 
         <div id="slider">
@@ -56,33 +62,33 @@
                     Maroon 5 is an American pop rock band from Los Angeles, California. It currently consists of lead vocalist Adam Levine, keyboardist and rhythm guitarist Jesse Carmichael, lead guitarist James Valentine, drummer Matt Flynn, keyboardist PJ Morton and multi-instrumentalist Sam Farrar.
                 </p>
                 <div class="row members-list">
-                    <div class="col col-third text-center">
+                    <div class="col col-third s-col-full mt-32 text-center">
                         <p class="member-name">Adam Levine</p>
                         <img src="./assets/img/band/member1.jpg" alt="Name" class="member-img">
                     </div>
-                    <div class="col col-third text-center">
+                    <div class="col col-third s-col-full mt-32 text-center">
                         <p class="member-name">Jesse Carmichael</p>
                         <img src="./assets/img/band/member2.jpg" alt="Name" class="member-img">
                     </div>
-                    <div class="col col-third text-center">
+                    <div class="col col-third s-col-full mt-32 text-center">
                         <p class="member-name">Mickey madden</p>
                         <img src="./assets/img/band/member3.jpg" alt="Name" class="member-img">
                     </div>
                 </div>
                 <div class="row members-list">
-                    <div class="col col-four text-center">
+                    <div class="col col-four  s-col-full mt-32 text-center">
                         <p class="member-name">James Valentine</p>
                         <img src="./assets/img/band/member4.jpg" alt="Name" class="member-img">
                     </div>
-                    <div class="col col-four text-center">
+                    <div class="col col-four  s-col-full mt-32 text-center">
                         <p class="member-name">Matt Flynn</p>
                         <img src="./assets/img/band/member5.jpg" alt="Name" class="member-img">
                     </div>
-                    <div class="col col-four text-center">
+                    <div class="col col-four  s-col-full mt-32 text-center">
                         <p class="member-name">PJ Morton</p>
                         <img src="./assets/img/band/member6.jpg" alt="Name" class="member-img">
                     </div>
-                    <div class="col col-four text-center">
+                    <div class="col col-four  s-col-full mt-32 text-center">
                         <p class="member-name">Sam Farrar</p>
                         <img src="./assets/img/band/member7.jpg" alt="Name" class="member-img">
                     </div>
@@ -104,31 +110,31 @@
 
                     <!-- Places -->
                     <div class="row places-list">
-                        <div class="col col-third">
+                        <div class="col col-third s-col-full mt-16">
                             <img src="./assets/img/places/place1.jpg" alt="New York" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">New York</h3>
                                 <p class="place-time">Fri 27 Nov 2021</p>
                                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <a href="#" class="btn">Buy Tickes</a>
+                                <a href="#" class="btn s-full-width">Buy Tickes</a>
                             </div>
                         </div>
-                        <div class="col col-third">
+                        <div class="col col-third s-col-full mt-16">
                             <img src="./assets/img/places/place2.jpg" alt="New York" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">Paris</h3>
                                 <p class="place-time">Sat 28 Nov 2021</p>
                                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <a href="#" class="btn">Buy Tickes</a>
+                                <a href="#" class="btn s-full-width">Buy Tickes</a>
                             </div>
                         </div>
-                        <div class="col col-third">
+                        <div class="col col-third s-col-full mt-16">
                             <img src="./assets/img/places/place3.jpg" alt="Paris" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">San Francisco</h3>
                                 <p class="place-time">Sun 29 Nov 2016</p>
                                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <a href="#" class="btn">Buy Tickes</a>
+                                <a href="#" class="btn s-full-width">Buy Tickes</a>
                             </div>
                         </div>
                     </div>
@@ -140,28 +146,28 @@
                 <h2 class="section-heading">CONTACT</h2>
                 <p class="section-sub-heading">Fan? Drop a note!</p>
                 <div class="row contact-content">
-                    <div class="col col-half contact-info">
+                    <div class="col col-half s-col-full contact-info">
                         <p><i class="ti-location-pin"></i>New York, US</p>
-                        <p><i class="ti-mobile"></i>Phone: +00 111111</p>
-                        <p><i class="ti-email"></i>Email: mail@mail.com</p>
+                        <p><i class="ti-mobile"></i>Phone: <a href="tel:+00 111111">+00 111111</a></p>
+                        <p><i class="ti-email"></i>Email: <a href="mailto:mail@mail.com">mail@mail.com</a></p>
                     </div>
-                    <div class="col col-half contact-form">
+                    <div class="col col-half s-col-full contact-form">
                         <form action="">
                             <div class="row">
-                                <div class="col col-half">
+                                <div class="col col-half s-col-full">
                                     <input type="text" name="" placeholder="Name" required id="" class="form-control">
                                 </div>
-                                <div class="col col-half">
+                                <div class="col col-half s-col-full s-mt-8">
                                     <input type="email" name="" placeholder="Email" required id="" class="form-control">
                                 </div>
                                 
                             </div>
                             <div class="row mt-8">
-                                <div class="col col-full">
+                                <div class="col col-full s-col-full">
                                     <input type="text" name="" placeholder="Message" required id="" class="form-control">
                                 </div>
                             </div>
-                            <input class="btn mt-16 pull-right" type="submit" value="SEND">
+                            <input class="contact-submit-btn btn mt-16 pull-right s-full-width" type="submit" value="SEND">
                         </form>
                     </div>
                 </div>
@@ -182,9 +188,44 @@
                 <a href=""><i class="ti-twitter"></i></a>
                 <a href=""><i class="ti-linkedin"></i></a>
             </div>
-            <!-- <p class="copyright">Powered by <a href="">w3.css</a></p> -->
-            <p>Nguyễn Hoàng Sơn 2021</p>
+            <div class="copyright">
+                <p>Nguyễn Hoàng Sơn 2021</p>
+            </div>
         </div>
     </div>
+
+    <script>
+        var header = document.getElementById('header');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+
+
+        /* Dong, mo mobile menu */
+        mobileMenu.onclick = function(){
+            var isClose = header.clientHeight === headerHeight;
+            if(isClose){
+                header.style.height = 'auto';
+            } else {
+                header.style.height = null;
+            }
+        }
+
+        /* Tu dong khi chon menu */
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        for(var i = 0; i < menuItems.length; i++){
+            var menuItem = menuItems[i];
+            
+            
+            menuItem.onclick = function (event) {
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                if(isParentMenu){
+                    event.preventDefault();
+                }else {
+                    header.style.height = null;
+                }
+            }
+        }
+    </script>
+
 </body>
 </html>
